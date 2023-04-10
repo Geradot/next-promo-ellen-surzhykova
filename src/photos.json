@@ -1,0 +1,88 @@
+{
+  "cocktail": [
+    {
+      "id": 1,
+      "alt": "Photo 1",
+      "src": "/assets/gallery/compressed/cocktail/pexels-aldair.jpg"
+    },
+    {
+      "id": 2,
+      "alt": "Photo 2",
+      "src": "/assets/gallery/compressed/cocktail/pexels-anastasiya-gepp.jpg"
+    },
+    {
+      "id": 3,
+      "alt": "Photo 3",
+      "src": "/assets/gallery/compressed/cocktail/pexels-bruno-salvadori.jpg"
+    },
+    {
+      "id": 4,
+      "alt": "Photo 4",
+      "src": "/assets/gallery/compressed/cocktail/pexels-ferdinand.jpg"
+    },
+    {
+      "id": 5,
+      "alt": "Photo 5",
+      "src": "/assets/gallery/compressed/cocktail/pexels-mikhail.jpg"
+    }
+  ],
+  "informal": [
+    {
+      "id": 6,
+      "alt": "Photo 6",
+      "src": "/assets/gallery/compressed/informal/pexels-denys-mikhalevych.jpg"
+    },
+    {
+      "id": 7,
+      "alt": "Photo 7",
+      "src": "/assets/gallery/compressed/informal/pexels-evg-kowalievska.jpg"
+    },
+    {
+      "id": 8,
+      "alt": "Photo 8",
+      "src": "/assets/gallery/compressed/informal/pexels-rodnae-productions.jpg"
+    },
+    {
+      "id": 9,
+      "alt": "Photo 9",
+      "src": "/assets/gallery/compressed/informal/pexels-shvets-production.jpg"
+    },
+    {
+      "id": 10,
+      "alt": "Photo 10",
+      "src": "/assets/gallery/compressed/informal/pexels-thirdman.jpg"
+    },
+    {
+      "id": 11,
+      "alt": "Photo 11",
+      "src": "/assets/gallery/compressed/informal/pexels-willow-story.jpg"
+    }
+  ],
+  "wedding": [
+    {
+      "id": 12,
+      "alt": "Photo 12",
+      "src": "/assets/gallery/compressed/wedding/pexels-cottonbro-studio.jpg"
+    },
+    {
+      "id": 13,
+      "alt": "Photo 13",
+      "src": "/assets/gallery/compressed/wedding/pexels-leeloo-thefirst.jpg"
+    },
+    {
+      "id": 14,
+      "alt": "Photo 14",
+      "src": "/assets/gallery/compressed/wedding/pexels-redheart-li.jpg"
+    },
+    {
+      "id": 15,
+      "alt": "Photo 15",
+      "src": "/assets/gallery/compressed/wedding/pexels-snezhana.jpg"
+    },
+    {
+      "id": 16,
+      "alt": "Photo 16",
+      "src": "/assets/gallery/compressed/wedding/pexels-thegiansepillo.jpg"
+    }
+  ]
+}
