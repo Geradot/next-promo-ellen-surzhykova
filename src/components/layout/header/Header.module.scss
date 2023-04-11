@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: hidden;
   color: #ffffff;
   text-align: center;
   height: 100vh;
@@ -13,7 +12,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   position: relative;
+  overflow: hidden;
 
   &::before {
     content: "";
@@ -39,7 +40,7 @@
   }
 }
 
-.maneken {
+.mannequin {
   height: calc(20 * 1.7vw);
   width: auto;
   filter: brightness(200%);

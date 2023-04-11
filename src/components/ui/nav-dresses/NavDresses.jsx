@@ -11,26 +11,10 @@ export default function NavDresses({ onData }) {
   const [informal, setInformal] = useState(false);
 
   function handlerGallery(type) {
-    switch (type.key) {
-      case "wedding":
-        setWedding(true);
-        setCocktail(false);
-        setInformal(false);
-        onData(type.key);
-        break;
-      case "cocktail":
-        setWedding(false);
-        setCocktail(true);
-        setInformal(false);
-        onData(type.key);
-        break;
-      case "informal":
-        setWedding(false);
-        setCocktail(false);
-        setInformal(true);
-        onData(type.key);
-        break;
-    }
+    setWedding(prev => prev == type)
+    setCocktail(prev => prev == type)
+    setInformal(prev => prev == type)
+    onData(type);
 
     // TODO: По возможности — переделать стейты под один объект
     // и использовать этот код ↓
@@ -69,7 +53,7 @@ export default function NavDresses({ onData }) {
       {keys.map((key) => (
         <div
           key={key}
-          onClick={() => handlerGallery({ key })}
+          onClick={() => handlerGallery(key)}
           className={clsx({
             [styles.active]: eval(key) === true,
           })}

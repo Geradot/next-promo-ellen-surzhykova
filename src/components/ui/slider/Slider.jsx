@@ -1,16 +1,72 @@
 import styles from "./Slider.module.scss";
 import clsx from "clsx";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import Loader from "../loader/Loader";
 
-export default function Slider({ chosenSlide, closeSlider, image }) {
+export default function Slider({ photos, closeSlider, currentImage }) {
+  const [activeSlide, setActiveSlide] = useState(null);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
+  useEffect(() => {
+    setActiveSlide(currentImage);
+  }, [currentImage]);
+
+  useEffect(() => {
+    if (activeSlide !== null) setIsImageLoaded(true);
+  }, [activeSlide]);
+
   function startCloseSlider(event) {
     if (
       !event.target.closest("#prev") &&
       !event.target.closest("#slides") &&
       !event.target.closest("#next")
     ) {
-      closeSlider(false);
+      closeSlider();
     }
+  }
+
+  // Prev or Next image
+  function chosenSlide(data) {
+    setIsImageLoaded(false);
+    switch (data) {
+      case "prev":
+        setActiveSlide(
+          (prev) =>
+            photos.find((item) => item.id === prev.id - 1) ??
+            photos.slice(-1)[0]
+        );
+        break;
+
+      case "next":
+        setActiveSlide(
+          (prev) =>
+            photos.find((item) => item.id === prev.id + 1) ?? photos.slice(0)[0]
+        );
+        break;
+    }
+    // switch (data) {
+    //   case "prev":
+    //     photoTypes.forEach((t) => {
+    //       if (t === type) {
+    //         setCurrentImage(
+    //           photos[`${t}`].find((item) => item.id === currentImage.id - 1) ??
+    //             photos[`${t}`].slice(-1)[0]
+    //         );
+    //       }
+    //     });
+    //     break;
+    //   case "next":
+    //     photoTypes.forEach((t) => {
+    //       if (t === type) {
+    //         setCurrentImage(
+    //           photos[`${t}`].find((item) => item.id === currentImage.id + 1) ??
+    //             photos[`${t}`].slice(0)[0]
+    //         );
+    //       }
+    //     });
+    //     break;
+    // }
   }
   return (
     <div className={styles.slider} onClick={startCloseSlider} id="slider">
@@ -19,16 +75,23 @@ export default function Slider({ chosenSlide, closeSlider, image }) {
         className={clsx(styles[`close-slider`], "btn-close")}
       />
       <div id="slides" className={styles.slides}>
-        <Image
-          src={process.env.basePATH + image.src}
-          blurDataURL={process.env.basePATH + image.src}
-          alt={image.alt}
-          fill
-          priority
-          quality={100}
-        />
+        {isImageLoaded ? (
+          <>
+          {console.log("Loader is disabled")}
+          <Image
+            src={process.env.basePATH + activeSlide.src}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
+            alt={activeSlide.alt}
+            fill
+            quality={100}
+          />
+          </>
+        ) : (
+          <Loader />
+        )}
       </div>
-      
+
       {/* Кнопки управления слайдером */}
       <div
         onClick={() => chosenSlide("prev")}
