@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./NavDresses.module.scss";
 import clsx from "clsx";
 
@@ -10,10 +10,33 @@ export default function NavDresses({ onData }) {
   const [cocktail, setCocktail] = useState(false);
   const [informal, setInformal] = useState(false);
 
+  useEffect(() => {
+    const popoverTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="popover"]'
+    );
+    const popoverList = [...popoverTriggerList].map(
+      (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+    );
+  }, []);
+
   function handlerGallery(type) {
-    setWedding(prev => prev == type)
-    setCocktail(prev => prev == type)
-    setInformal(prev => prev == type)
+    switch (type) {
+      case "wedding":
+        setWedding(true);
+        setCocktail(false);
+        setInformal(false);
+        break;
+      case "cocktail":
+        setWedding(false);
+        setCocktail(true);
+        setInformal(false);
+        break;
+      case "informal":
+        setWedding(false);
+        setCocktail(false);
+        setInformal(true);
+        break;
+    }
     onData(type);
 
     // TODO: По возможности — переделать стейты под один объект
@@ -31,18 +54,18 @@ export default function NavDresses({ onData }) {
         data-bs-title="Contacts"
         data-bs-placement="right"
         data-bs-html="true"
-        data-bs-content='
+        data-bs-content={`
             <div class="contacts">
-                <div class="btn btn-outline-warning email">
-                <img src="./assets/icons/email.svg" alt="Email icon" />
-                <a href="mailto:Luna1lika@gmail.com">Luna1lika@gmail.com</a>
+                <div class='btn btn-outline-dark email'>
+                  <img src='/next-ellen-surzhykova/assets/icons/email.svg' alt='Email icon' />
+                  <a href='mailto:Luna1lika@gmail.com'>Luna1lika@gmail.com</a>
                 </div>
-                <div class="btn btn-outline-warning phone">
-                <img src="./assets/icons/phone.png" alt="Phone icon" />
-                <a href="tel:+17124496163">+1&nbsp;(712)&nbsp;449-6163</a>
+                <div class='btn btn-outline-dark phone'>
+                  <img src='/next-ellen-surzhykova/assets/icons/phone.png' alt='Phone icon' />
+                  <a href='tel:+17124496163'>+1&nbsp;(712)&nbsp;449-6163</a>
                 </div>
             </div>
-            '
+        `} 
       >
         <i
           aria-hidden="true"

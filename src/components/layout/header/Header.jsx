@@ -8,14 +8,6 @@ import img_bg from "@/../public/assets/header/header-bg.png";
 export default function Header() {
   return (
     <header className={clsx(styles.header, "gap-3")}>
-      {/* <Image
-        priority
-        fill
-        src={process.env.basePATH + "/assets/header/header-bg.png"}
-        alt="Header background"
-        style={{ objectFit: "cover", zIndex: "-1" }}
-        quality={100}
-      /> */}
       <div className={clsx(styles.author, "gap-3")}>
         <Image
           src={img_mannequin}

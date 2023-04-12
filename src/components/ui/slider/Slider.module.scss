@@ -44,18 +44,23 @@
     left: 50%;
     transform: translateX(-50%);
 
+    @media (max-width: 768px) {
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: 90vh;
+    }
+
     @media (max-width: 632px) {
       height: 90vh;
     }
 
     @media (max-width: 576px) {
-      height: 77vh;
-      top: 50%;
-      transform: translate(-50%, -50%);
+      height: 66vh;
     }
 
     @media (max-width: 400px) {
       height: 60vh;
+      top: 45%;
     }
 
     @media (max-width: 325px) {

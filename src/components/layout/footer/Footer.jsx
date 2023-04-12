@@ -27,7 +27,7 @@ export default function Footer() {
       <p data-aos="fade-up">
         Created by{" "}
         <a href="https://github.com/Geradot" className="link-underline-dark">
-          Anton Ryzhenko
+          Anton&nbsp;Ryzhenko
         </a>{" "}
         © 2023
       </p>

@@ -9,6 +9,10 @@ export default function Slider({ photos, closeSlider, currentImage }) {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
+    document.addEventListener("keydown", closingSliderViaKey);
+  }, []);
+
+  useEffect(() => {
     setActiveSlide(currentImage);
   }, [currentImage]);
 
@@ -16,7 +20,7 @@ export default function Slider({ photos, closeSlider, currentImage }) {
     if (activeSlide !== null) setIsImageLoaded(true);
   }, [activeSlide]);
 
-  function startCloseSlider(event) {
+  function closingSlider(event) {
     if (
       !event.target.closest("#prev") &&
       !event.target.closest("#slides") &&
@@ -24,6 +28,10 @@ export default function Slider({ photos, closeSlider, currentImage }) {
     ) {
       closeSlider();
     }
+  }
+
+  function closingSliderViaKey(e) {
+    if (e.code === "Escape") closeSlider();
   }
 
   // Prev or Next image
@@ -45,31 +53,9 @@ export default function Slider({ photos, closeSlider, currentImage }) {
         );
         break;
     }
-    // switch (data) {
-    //   case "prev":
-    //     photoTypes.forEach((t) => {
-    //       if (t === type) {
-    //         setCurrentImage(
-    //           photos[`${t}`].find((item) => item.id === currentImage.id - 1) ??
-    //             photos[`${t}`].slice(-1)[0]
-    //         );
-    //       }
-    //     });
-    //     break;
-    //   case "next":
-    //     photoTypes.forEach((t) => {
-    //       if (t === type) {
-    //         setCurrentImage(
-    //           photos[`${t}`].find((item) => item.id === currentImage.id + 1) ??
-    //             photos[`${t}`].slice(0)[0]
-    //         );
-    //       }
-    //     });
-    //     break;
-    // }
   }
   return (
-    <div className={styles.slider} onClick={startCloseSlider} id="slider">
+    <div className={styles.slider} onClick={closingSlider} id="slider">
       <button
         id="close-slider"
         className={clsx(styles[`close-slider`], "btn-close")}
@@ -77,15 +63,15 @@ export default function Slider({ photos, closeSlider, currentImage }) {
       <div id="slides" className={styles.slides}>
         {isImageLoaded ? (
           <>
-          {console.log("Loader is disabled")}
-          <Image
-            src={process.env.basePATH + activeSlide.src}
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
-            alt={activeSlide.alt}
-            fill
-            quality={100}
-          />
+            {console.log("Loader is disabled")}
+            <Image
+              src={process.env.basePATH + activeSlide.src}
+              placeholder="blur"
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
+              alt={activeSlide.alt}
+              fill
+              quality={100}
+            />
           </>
         ) : (
           <Loader />

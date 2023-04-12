@@ -14,6 +14,8 @@ function ImageList({ chooseCurrentImage, photos, type }) {
             width={250}
             height={420}
             onClick={() => chooseCurrentImage(photo)}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
           />
         ))}
       </div>
