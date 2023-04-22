@@ -5,7 +5,7 @@ import json
 photos = {}
 
 # путь к папке с фотографиями
-photos_dir = "./public/assets/gallery/compressed"
+photos_dir = "./public/assets/new_gallery"
 
 #Уникальный ID для каждой фотографии
 j = 0
@@ -23,7 +23,7 @@ for subdir in os.listdir(photos_dir):
         photo = {
             "id": j + 1,
             "alt": f"Photo {j + 1}",
-            "src": f"/assets/gallery/compressed/{subdir}/{file_name}"
+            "src": f"/assets/new_gallery/{subdir}/{file_name}"
         }
         # добавляем словарь в список фотографий для текущего каталога
         photos[subdir].append(photo)

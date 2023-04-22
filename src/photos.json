@@ -3,86 +3,1181 @@
     {
       "id": 1,
       "alt": "Photo 1",
-      "src": "/assets/gallery/compressed/cocktail/pexels-aldair.jpg"
+      "src": "/assets/new_gallery/cocktail/10Photo.jpeg"
     },
     {
       "id": 2,
       "alt": "Photo 2",
-      "src": "/assets/gallery/compressed/cocktail/pexels-anastasiya-gepp.jpg"
+      "src": "/assets/new_gallery/cocktail/11Photo.jpeg"
     },
     {
       "id": 3,
       "alt": "Photo 3",
-      "src": "/assets/gallery/compressed/cocktail/pexels-bruno-salvadori.jpg"
+      "src": "/assets/new_gallery/cocktail/12Photo.jpeg"
     },
     {
       "id": 4,
       "alt": "Photo 4",
-      "src": "/assets/gallery/compressed/cocktail/pexels-ferdinand.jpg"
+      "src": "/assets/new_gallery/cocktail/13Photo.jpeg"
     },
     {
       "id": 5,
       "alt": "Photo 5",
-      "src": "/assets/gallery/compressed/cocktail/pexels-mikhail.jpg"
-    }
-  ],
-  "informal": [
+      "src": "/assets/new_gallery/cocktail/14Photo.jpeg"
+    },
     {
       "id": 6,
       "alt": "Photo 6",
-      "src": "/assets/gallery/compressed/informal/pexels-denys-mikhalevych.jpg"
+      "src": "/assets/new_gallery/cocktail/15Photo.jpeg"
     },
     {
       "id": 7,
       "alt": "Photo 7",
-      "src": "/assets/gallery/compressed/informal/pexels-evg-kowalievska.jpg"
+      "src": "/assets/new_gallery/cocktail/16Photo.jpeg"
     },
     {
       "id": 8,
       "alt": "Photo 8",
-      "src": "/assets/gallery/compressed/informal/pexels-rodnae-productions.jpg"
+      "src": "/assets/new_gallery/cocktail/17Photo.jpeg"
     },
     {
       "id": 9,
       "alt": "Photo 9",
-      "src": "/assets/gallery/compressed/informal/pexels-shvets-production.jpg"
+      "src": "/assets/new_gallery/cocktail/18Photo.jpeg"
     },
     {
       "id": 10,
       "alt": "Photo 10",
-      "src": "/assets/gallery/compressed/informal/pexels-thirdman.jpg"
+      "src": "/assets/new_gallery/cocktail/19Photo.jpeg"
     },
     {
       "id": 11,
       "alt": "Photo 11",
-      "src": "/assets/gallery/compressed/informal/pexels-willow-story.jpg"
-    }
-  ],
-  "wedding": [
+      "src": "/assets/new_gallery/cocktail/1Photo.jpeg"
+    },
     {
       "id": 12,
       "alt": "Photo 12",
-      "src": "/assets/gallery/compressed/wedding/pexels-cottonbro-studio.jpg"
+      "src": "/assets/new_gallery/cocktail/20Photo.jpeg"
     },
     {
       "id": 13,
       "alt": "Photo 13",
-      "src": "/assets/gallery/compressed/wedding/pexels-leeloo-thefirst.jpg"
+      "src": "/assets/new_gallery/cocktail/21Photo.jpeg"
     },
     {
       "id": 14,
       "alt": "Photo 14",
-      "src": "/assets/gallery/compressed/wedding/pexels-redheart-li.jpg"
+      "src": "/assets/new_gallery/cocktail/22Photo.jpeg"
     },
     {
       "id": 15,
       "alt": "Photo 15",
-      "src": "/assets/gallery/compressed/wedding/pexels-snezhana.jpg"
+      "src": "/assets/new_gallery/cocktail/23Photo.jpeg"
     },
     {
       "id": 16,
       "alt": "Photo 16",
-      "src": "/assets/gallery/compressed/wedding/pexels-thegiansepillo.jpg"
+      "src": "/assets/new_gallery/cocktail/2Photo.jpeg"
+    },
+    {
+      "id": 17,
+      "alt": "Photo 17",
+      "src": "/assets/new_gallery/cocktail/3Photo.jpeg"
+    },
+    {
+      "id": 18,
+      "alt": "Photo 18",
+      "src": "/assets/new_gallery/cocktail/4Photo.jpeg"
+    },
+    {
+      "id": 19,
+      "alt": "Photo 19",
+      "src": "/assets/new_gallery/cocktail/5Photo.jpeg"
+    },
+    {
+      "id": 20,
+      "alt": "Photo 20",
+      "src": "/assets/new_gallery/cocktail/6Photo.jpeg"
+    },
+    {
+      "id": 21,
+      "alt": "Photo 21",
+      "src": "/assets/new_gallery/cocktail/7Photo.jpeg"
+    },
+    {
+      "id": 22,
+      "alt": "Photo 22",
+      "src": "/assets/new_gallery/cocktail/8Photo.jpeg"
+    },
+    {
+      "id": 23,
+      "alt": "Photo 23",
+      "src": "/assets/new_gallery/cocktail/9Photo.jpeg"
+    }
+  ],
+  "informal": [
+    {
+      "id": 24,
+      "alt": "Photo 24",
+      "src": "/assets/new_gallery/informal/1Photo.jpeg"
+    },
+    {
+      "id": 25,
+      "alt": "Photo 25",
+      "src": "/assets/new_gallery/informal/2Photo.jpeg"
+    },
+    {
+      "id": 26,
+      "alt": "Photo 26",
+      "src": "/assets/new_gallery/informal/3Photo.jpeg"
+    },
+    {
+      "id": 27,
+      "alt": "Photo 27",
+      "src": "/assets/new_gallery/informal/4Photo.jpeg"
+    },
+    {
+      "id": 28,
+      "alt": "Photo 28",
+      "src": "/assets/new_gallery/informal/5Photo.jpeg"
+    },
+    {
+      "id": 29,
+      "alt": "Photo 29",
+      "src": "/assets/new_gallery/informal/6Photo.jpeg"
+    },
+    {
+      "id": 30,
+      "alt": "Photo 30",
+      "src": "/assets/new_gallery/informal/7Photo.jpeg"
+    },
+    {
+      "id": 31,
+      "alt": "Photo 31",
+      "src": "/assets/new_gallery/informal/8Photo.jpeg"
+    }
+  ],
+  "wedding": [
+    {
+      "id": 32,
+      "alt": "Photo 32",
+      "src": "/assets/new_gallery/wedding/100Photo.jpeg"
+    },
+    {
+      "id": 33,
+      "alt": "Photo 33",
+      "src": "/assets/new_gallery/wedding/101Photo.jpeg"
+    },
+    {
+      "id": 34,
+      "alt": "Photo 34",
+      "src": "/assets/new_gallery/wedding/102Photo.jpeg"
+    },
+    {
+      "id": 35,
+      "alt": "Photo 35",
+      "src": "/assets/new_gallery/wedding/103Photo.jpeg"
+    },
+    {
+      "id": 36,
+      "alt": "Photo 36",
+      "src": "/assets/new_gallery/wedding/104Photo.jpeg"
+    },
+    {
+      "id": 37,
+      "alt": "Photo 37",
+      "src": "/assets/new_gallery/wedding/105Photo.jpeg"
+    },
+    {
+      "id": 38,
+      "alt": "Photo 38",
+      "src": "/assets/new_gallery/wedding/106Photo.jpeg"
+    },
+    {
+      "id": 39,
+      "alt": "Photo 39",
+      "src": "/assets/new_gallery/wedding/107Photo.jpeg"
+    },
+    {
+      "id": 40,
+      "alt": "Photo 40",
+      "src": "/assets/new_gallery/wedding/108Photo.jpeg"
+    },
+    {
+      "id": 41,
+      "alt": "Photo 41",
+      "src": "/assets/new_gallery/wedding/109Photo.jpeg"
+    },
+    {
+      "id": 42,
+      "alt": "Photo 42",
+      "src": "/assets/new_gallery/wedding/10Photo.jpeg"
+    },
+    {
+      "id": 43,
+      "alt": "Photo 43",
+      "src": "/assets/new_gallery/wedding/110Photo.jpeg"
+    },
+    {
+      "id": 44,
+      "alt": "Photo 44",
+      "src": "/assets/new_gallery/wedding/111Photo.jpeg"
+    },
+    {
+      "id": 45,
+      "alt": "Photo 45",
+      "src": "/assets/new_gallery/wedding/112Photo.jpeg"
+    },
+    {
+      "id": 46,
+      "alt": "Photo 46",
+      "src": "/assets/new_gallery/wedding/113Photo.jpeg"
+    },
+    {
+      "id": 47,
+      "alt": "Photo 47",
+      "src": "/assets/new_gallery/wedding/114Photo.jpeg"
+    },
+    {
+      "id": 48,
+      "alt": "Photo 48",
+      "src": "/assets/new_gallery/wedding/115Photo.jpeg"
+    },
+    {
+      "id": 49,
+      "alt": "Photo 49",
+      "src": "/assets/new_gallery/wedding/116Photo.jpeg"
+    },
+    {
+      "id": 50,
+      "alt": "Photo 50",
+      "src": "/assets/new_gallery/wedding/117Photo.jpeg"
+    },
+    {
+      "id": 51,
+      "alt": "Photo 51",
+      "src": "/assets/new_gallery/wedding/118Photo.jpeg"
+    },
+    {
+      "id": 52,
+      "alt": "Photo 52",
+      "src": "/assets/new_gallery/wedding/119Photo.jpeg"
+    },
+    {
+      "id": 53,
+      "alt": "Photo 53",
+      "src": "/assets/new_gallery/wedding/11Photo.jpeg"
+    },
+    {
+      "id": 54,
+      "alt": "Photo 54",
+      "src": "/assets/new_gallery/wedding/120Photo.jpeg"
+    },
+    {
+      "id": 55,
+      "alt": "Photo 55",
+      "src": "/assets/new_gallery/wedding/121Photo.jpeg"
+    },
+    {
+      "id": 56,
+      "alt": "Photo 56",
+      "src": "/assets/new_gallery/wedding/122Photo.jpeg"
+    },
+    {
+      "id": 57,
+      "alt": "Photo 57",
+      "src": "/assets/new_gallery/wedding/123Photo.jpeg"
+    },
+    {
+      "id": 58,
+      "alt": "Photo 58",
+      "src": "/assets/new_gallery/wedding/124Photo.jpeg"
+    },
+    {
+      "id": 59,
+      "alt": "Photo 59",
+      "src": "/assets/new_gallery/wedding/125Photo.jpeg"
+    },
+    {
+      "id": 60,
+      "alt": "Photo 60",
+      "src": "/assets/new_gallery/wedding/126Photo.jpeg"
+    },
+    {
+      "id": 61,
+      "alt": "Photo 61",
+      "src": "/assets/new_gallery/wedding/127Photo.jpeg"
+    },
+    {
+      "id": 62,
+      "alt": "Photo 62",
+      "src": "/assets/new_gallery/wedding/128Photo.jpeg"
+    },
+    {
+      "id": 63,
+      "alt": "Photo 63",
+      "src": "/assets/new_gallery/wedding/129Photo.jpeg"
+    },
+    {
+      "id": 64,
+      "alt": "Photo 64",
+      "src": "/assets/new_gallery/wedding/12Photo.jpeg"
+    },
+    {
+      "id": 65,
+      "alt": "Photo 65",
+      "src": "/assets/new_gallery/wedding/130Photo.jpeg"
+    },
+    {
+      "id": 66,
+      "alt": "Photo 66",
+      "src": "/assets/new_gallery/wedding/131Photo.jpeg"
+    },
+    {
+      "id": 67,
+      "alt": "Photo 67",
+      "src": "/assets/new_gallery/wedding/132Photo.jpeg"
+    },
+    {
+      "id": 68,
+      "alt": "Photo 68",
+      "src": "/assets/new_gallery/wedding/133Photo.jpeg"
+    },
+    {
+      "id": 69,
+      "alt": "Photo 69",
+      "src": "/assets/new_gallery/wedding/134Photo.jpeg"
+    },
+    {
+      "id": 70,
+      "alt": "Photo 70",
+      "src": "/assets/new_gallery/wedding/135Photo.jpeg"
+    },
+    {
+      "id": 71,
+      "alt": "Photo 71",
+      "src": "/assets/new_gallery/wedding/136Photo.jpeg"
+    },
+    {
+      "id": 72,
+      "alt": "Photo 72",
+      "src": "/assets/new_gallery/wedding/137Photo.jpeg"
+    },
+    {
+      "id": 73,
+      "alt": "Photo 73",
+      "src": "/assets/new_gallery/wedding/138Photo.jpeg"
+    },
+    {
+      "id": 74,
+      "alt": "Photo 74",
+      "src": "/assets/new_gallery/wedding/139Photo.jpeg"
+    },
+    {
+      "id": 75,
+      "alt": "Photo 75",
+      "src": "/assets/new_gallery/wedding/13Photo.jpeg"
+    },
+    {
+      "id": 76,
+      "alt": "Photo 76",
+      "src": "/assets/new_gallery/wedding/140Photo.jpeg"
+    },
+    {
+      "id": 77,
+      "alt": "Photo 77",
+      "src": "/assets/new_gallery/wedding/141Photo.jpeg"
+    },
+    {
+      "id": 78,
+      "alt": "Photo 78",
+      "src": "/assets/new_gallery/wedding/142Photo.jpeg"
+    },
+    {
+      "id": 79,
+      "alt": "Photo 79",
+      "src": "/assets/new_gallery/wedding/143Photo.jpeg"
+    },
+    {
+      "id": 80,
+      "alt": "Photo 80",
+      "src": "/assets/new_gallery/wedding/144Photo.jpeg"
+    },
+    {
+      "id": 81,
+      "alt": "Photo 81",
+      "src": "/assets/new_gallery/wedding/145Photo.jpeg"
+    },
+    {
+      "id": 82,
+      "alt": "Photo 82",
+      "src": "/assets/new_gallery/wedding/146Photo.jpeg"
+    },
+    {
+      "id": 83,
+      "alt": "Photo 83",
+      "src": "/assets/new_gallery/wedding/147Photo.jpeg"
+    },
+    {
+      "id": 84,
+      "alt": "Photo 84",
+      "src": "/assets/new_gallery/wedding/148Photo.jpeg"
+    },
+    {
+      "id": 85,
+      "alt": "Photo 85",
+      "src": "/assets/new_gallery/wedding/149Photo.jpeg"
+    },
+    {
+      "id": 86,
+      "alt": "Photo 86",
+      "src": "/assets/new_gallery/wedding/14Photo.jpeg"
+    },
+    {
+      "id": 87,
+      "alt": "Photo 87",
+      "src": "/assets/new_gallery/wedding/150Photo.jpeg"
+    },
+    {
+      "id": 88,
+      "alt": "Photo 88",
+      "src": "/assets/new_gallery/wedding/151Photo.jpeg"
+    },
+    {
+      "id": 89,
+      "alt": "Photo 89",
+      "src": "/assets/new_gallery/wedding/152Photo.jpeg"
+    },
+    {
+      "id": 90,
+      "alt": "Photo 90",
+      "src": "/assets/new_gallery/wedding/153Photo.jpeg"
+    },
+    {
+      "id": 91,
+      "alt": "Photo 91",
+      "src": "/assets/new_gallery/wedding/154Photo.jpeg"
+    },
+    {
+      "id": 92,
+      "alt": "Photo 92",
+      "src": "/assets/new_gallery/wedding/155Photo.jpeg"
+    },
+    {
+      "id": 93,
+      "alt": "Photo 93",
+      "src": "/assets/new_gallery/wedding/156Photo.jpeg"
+    },
+    {
+      "id": 94,
+      "alt": "Photo 94",
+      "src": "/assets/new_gallery/wedding/157Photo.jpeg"
+    },
+    {
+      "id": 95,
+      "alt": "Photo 95",
+      "src": "/assets/new_gallery/wedding/158Photo.jpeg"
+    },
+    {
+      "id": 96,
+      "alt": "Photo 96",
+      "src": "/assets/new_gallery/wedding/159Photo.jpeg"
+    },
+    {
+      "id": 97,
+      "alt": "Photo 97",
+      "src": "/assets/new_gallery/wedding/15Photo.jpeg"
+    },
+    {
+      "id": 98,
+      "alt": "Photo 98",
+      "src": "/assets/new_gallery/wedding/160Photo.jpeg"
+    },
+    {
+      "id": 99,
+      "alt": "Photo 99",
+      "src": "/assets/new_gallery/wedding/161Photo.jpeg"
+    },
+    {
+      "id": 100,
+      "alt": "Photo 100",
+      "src": "/assets/new_gallery/wedding/162Photo.jpeg"
+    },
+    {
+      "id": 101,
+      "alt": "Photo 101",
+      "src": "/assets/new_gallery/wedding/163Photo.jpeg"
+    },
+    {
+      "id": 102,
+      "alt": "Photo 102",
+      "src": "/assets/new_gallery/wedding/164Photo.jpeg"
+    },
+    {
+      "id": 103,
+      "alt": "Photo 103",
+      "src": "/assets/new_gallery/wedding/165Photo.jpeg"
+    },
+    {
+      "id": 104,
+      "alt": "Photo 104",
+      "src": "/assets/new_gallery/wedding/166Photo.jpeg"
+    },
+    {
+      "id": 105,
+      "alt": "Photo 105",
+      "src": "/assets/new_gallery/wedding/167Photo.jpeg"
+    },
+    {
+      "id": 106,
+      "alt": "Photo 106",
+      "src": "/assets/new_gallery/wedding/168Photo.jpeg"
+    },
+    {
+      "id": 107,
+      "alt": "Photo 107",
+      "src": "/assets/new_gallery/wedding/169Photo.jpeg"
+    },
+    {
+      "id": 108,
+      "alt": "Photo 108",
+      "src": "/assets/new_gallery/wedding/16Photo.jpeg"
+    },
+    {
+      "id": 109,
+      "alt": "Photo 109",
+      "src": "/assets/new_gallery/wedding/170Photo.jpeg"
+    },
+    {
+      "id": 110,
+      "alt": "Photo 110",
+      "src": "/assets/new_gallery/wedding/171Photo.jpeg"
+    },
+    {
+      "id": 111,
+      "alt": "Photo 111",
+      "src": "/assets/new_gallery/wedding/172Photo.jpeg"
+    },
+    {
+      "id": 112,
+      "alt": "Photo 112",
+      "src": "/assets/new_gallery/wedding/173Photo.jpeg"
+    },
+    {
+      "id": 113,
+      "alt": "Photo 113",
+      "src": "/assets/new_gallery/wedding/174Photo.jpeg"
+    },
+    {
+      "id": 114,
+      "alt": "Photo 114",
+      "src": "/assets/new_gallery/wedding/175Photo.jpeg"
+    },
+    {
+      "id": 115,
+      "alt": "Photo 115",
+      "src": "/assets/new_gallery/wedding/176Photo.jpeg"
+    },
+    {
+      "id": 116,
+      "alt": "Photo 116",
+      "src": "/assets/new_gallery/wedding/177Photo.jpeg"
+    },
+    {
+      "id": 117,
+      "alt": "Photo 117",
+      "src": "/assets/new_gallery/wedding/178Photo.jpeg"
+    },
+    {
+      "id": 118,
+      "alt": "Photo 118",
+      "src": "/assets/new_gallery/wedding/179Photo.jpeg"
+    },
+    {
+      "id": 119,
+      "alt": "Photo 119",
+      "src": "/assets/new_gallery/wedding/17Photo.jpeg"
+    },
+    {
+      "id": 120,
+      "alt": "Photo 120",
+      "src": "/assets/new_gallery/wedding/180Photo.jpeg"
+    },
+    {
+      "id": 121,
+      "alt": "Photo 121",
+      "src": "/assets/new_gallery/wedding/181Photo.jpeg"
+    },
+    {
+      "id": 122,
+      "alt": "Photo 122",
+      "src": "/assets/new_gallery/wedding/182Photo.JPEG"
+    },
+    {
+      "id": 123,
+      "alt": "Photo 123",
+      "src": "/assets/new_gallery/wedding/183Photo.JPEG"
+    },
+    {
+      "id": 124,
+      "alt": "Photo 124",
+      "src": "/assets/new_gallery/wedding/184Photo.JPEG"
+    },
+    {
+      "id": 125,
+      "alt": "Photo 125",
+      "src": "/assets/new_gallery/wedding/185Photo.JPEG"
+    },
+    {
+      "id": 126,
+      "alt": "Photo 126",
+      "src": "/assets/new_gallery/wedding/186Photo.jpg"
+    },
+    {
+      "id": 127,
+      "alt": "Photo 127",
+      "src": "/assets/new_gallery/wedding/187Photo.jpg"
+    },
+    {
+      "id": 128,
+      "alt": "Photo 128",
+      "src": "/assets/new_gallery/wedding/188Photo.jpg"
+    },
+    {
+      "id": 129,
+      "alt": "Photo 129",
+      "src": "/assets/new_gallery/wedding/189Photo.jpg"
+    },
+    {
+      "id": 130,
+      "alt": "Photo 130",
+      "src": "/assets/new_gallery/wedding/18Photo.jpeg"
+    },
+    {
+      "id": 131,
+      "alt": "Photo 131",
+      "src": "/assets/new_gallery/wedding/190Photo.jpg"
+    },
+    {
+      "id": 132,
+      "alt": "Photo 132",
+      "src": "/assets/new_gallery/wedding/191Photo.jpg"
+    },
+    {
+      "id": 133,
+      "alt": "Photo 133",
+      "src": "/assets/new_gallery/wedding/192Photo.jpg"
+    },
+    {
+      "id": 134,
+      "alt": "Photo 134",
+      "src": "/assets/new_gallery/wedding/193Photo.jpg"
+    },
+    {
+      "id": 135,
+      "alt": "Photo 135",
+      "src": "/assets/new_gallery/wedding/194Photo.jpeg"
+    },
+    {
+      "id": 136,
+      "alt": "Photo 136",
+      "src": "/assets/new_gallery/wedding/195Photo.jpeg"
+    },
+    {
+      "id": 137,
+      "alt": "Photo 137",
+      "src": "/assets/new_gallery/wedding/196Photo.jpeg"
+    },
+    {
+      "id": 138,
+      "alt": "Photo 138",
+      "src": "/assets/new_gallery/wedding/197Photo.jpeg"
+    },
+    {
+      "id": 139,
+      "alt": "Photo 139",
+      "src": "/assets/new_gallery/wedding/198Photo.jpeg"
+    },
+    {
+      "id": 140,
+      "alt": "Photo 140",
+      "src": "/assets/new_gallery/wedding/199Photo.jpeg"
+    },
+    {
+      "id": 141,
+      "alt": "Photo 141",
+      "src": "/assets/new_gallery/wedding/19Photo.jpeg"
+    },
+    {
+      "id": 142,
+      "alt": "Photo 142",
+      "src": "/assets/new_gallery/wedding/1Photo.jpeg"
+    },
+    {
+      "id": 143,
+      "alt": "Photo 143",
+      "src": "/assets/new_gallery/wedding/200Photo.jpeg"
+    },
+    {
+      "id": 144,
+      "alt": "Photo 144",
+      "src": "/assets/new_gallery/wedding/201Photo.jpeg"
+    },
+    {
+      "id": 145,
+      "alt": "Photo 145",
+      "src": "/assets/new_gallery/wedding/202Photo.jpeg"
+    },
+    {
+      "id": 146,
+      "alt": "Photo 146",
+      "src": "/assets/new_gallery/wedding/203Photo.jpeg"
+    },
+    {
+      "id": 147,
+      "alt": "Photo 147",
+      "src": "/assets/new_gallery/wedding/204Photo.jpeg"
+    },
+    {
+      "id": 148,
+      "alt": "Photo 148",
+      "src": "/assets/new_gallery/wedding/20Photo.jpeg"
+    },
+    {
+      "id": 149,
+      "alt": "Photo 149",
+      "src": "/assets/new_gallery/wedding/21Photo.jpeg"
+    },
+    {
+      "id": 150,
+      "alt": "Photo 150",
+      "src": "/assets/new_gallery/wedding/22Photo.jpeg"
+    },
+    {
+      "id": 151,
+      "alt": "Photo 151",
+      "src": "/assets/new_gallery/wedding/23Photo.jpeg"
+    },
+    {
+      "id": 152,
+      "alt": "Photo 152",
+      "src": "/assets/new_gallery/wedding/24Photo.jpeg"
+    },
+    {
+      "id": 153,
+      "alt": "Photo 153",
+      "src": "/assets/new_gallery/wedding/25Photo.jpeg"
+    },
+    {
+      "id": 154,
+      "alt": "Photo 154",
+      "src": "/assets/new_gallery/wedding/26Photo.jpeg"
+    },
+    {
+      "id": 155,
+      "alt": "Photo 155",
+      "src": "/assets/new_gallery/wedding/27Photo.jpeg"
+    },
+    {
+      "id": 156,
+      "alt": "Photo 156",
+      "src": "/assets/new_gallery/wedding/28Photo.jpeg"
+    },
+    {
+      "id": 157,
+      "alt": "Photo 157",
+      "src": "/assets/new_gallery/wedding/29Photo.jpeg"
+    },
+    {
+      "id": 158,
+      "alt": "Photo 158",
+      "src": "/assets/new_gallery/wedding/2Photo.jpeg"
+    },
+    {
+      "id": 159,
+      "alt": "Photo 159",
+      "src": "/assets/new_gallery/wedding/30Photo.jpeg"
+    },
+    {
+      "id": 160,
+      "alt": "Photo 160",
+      "src": "/assets/new_gallery/wedding/31Photo.jpeg"
+    },
+    {
+      "id": 161,
+      "alt": "Photo 161",
+      "src": "/assets/new_gallery/wedding/32Photo.jpeg"
+    },
+    {
+      "id": 162,
+      "alt": "Photo 162",
+      "src": "/assets/new_gallery/wedding/33Photo.jpeg"
+    },
+    {
+      "id": 163,
+      "alt": "Photo 163",
+      "src": "/assets/new_gallery/wedding/34Photo.jpeg"
+    },
+    {
+      "id": 164,
+      "alt": "Photo 164",
+      "src": "/assets/new_gallery/wedding/35Photo.jpeg"
+    },
+    {
+      "id": 165,
+      "alt": "Photo 165",
+      "src": "/assets/new_gallery/wedding/36Photo.jpeg"
+    },
+    {
+      "id": 166,
+      "alt": "Photo 166",
+      "src": "/assets/new_gallery/wedding/37Photo.jpeg"
+    },
+    {
+      "id": 167,
+      "alt": "Photo 167",
+      "src": "/assets/new_gallery/wedding/38Photo.jpeg"
+    },
+    {
+      "id": 168,
+      "alt": "Photo 168",
+      "src": "/assets/new_gallery/wedding/39Photo.jpeg"
+    },
+    {
+      "id": 169,
+      "alt": "Photo 169",
+      "src": "/assets/new_gallery/wedding/3Photo.jpeg"
+    },
+    {
+      "id": 170,
+      "alt": "Photo 170",
+      "src": "/assets/new_gallery/wedding/40Photo.jpeg"
+    },
+    {
+      "id": 171,
+      "alt": "Photo 171",
+      "src": "/assets/new_gallery/wedding/41Photo.jpeg"
+    },
+    {
+      "id": 172,
+      "alt": "Photo 172",
+      "src": "/assets/new_gallery/wedding/42Photo.jpeg"
+    },
+    {
+      "id": 173,
+      "alt": "Photo 173",
+      "src": "/assets/new_gallery/wedding/43Photo.jpeg"
+    },
+    {
+      "id": 174,
+      "alt": "Photo 174",
+      "src": "/assets/new_gallery/wedding/44Photo.jpeg"
+    },
+    {
+      "id": 175,
+      "alt": "Photo 175",
+      "src": "/assets/new_gallery/wedding/45Photo.jpeg"
+    },
+    {
+      "id": 176,
+      "alt": "Photo 176",
+      "src": "/assets/new_gallery/wedding/46Photo.jpeg"
+    },
+    {
+      "id": 177,
+      "alt": "Photo 177",
+      "src": "/assets/new_gallery/wedding/47Photo.jpeg"
+    },
+    {
+      "id": 178,
+      "alt": "Photo 178",
+      "src": "/assets/new_gallery/wedding/48Photo.jpeg"
+    },
+    {
+      "id": 179,
+      "alt": "Photo 179",
+      "src": "/assets/new_gallery/wedding/49Photo.jpeg"
+    },
+    {
+      "id": 180,
+      "alt": "Photo 180",
+      "src": "/assets/new_gallery/wedding/4Photo.jpeg"
+    },
+    {
+      "id": 181,
+      "alt": "Photo 181",
+      "src": "/assets/new_gallery/wedding/50Photo.jpeg"
+    },
+    {
+      "id": 182,
+      "alt": "Photo 182",
+      "src": "/assets/new_gallery/wedding/51Photo.jpeg"
+    },
+    {
+      "id": 183,
+      "alt": "Photo 183",
+      "src": "/assets/new_gallery/wedding/52Photo.jpeg"
+    },
+    {
+      "id": 184,
+      "alt": "Photo 184",
+      "src": "/assets/new_gallery/wedding/53Photo.jpeg"
+    },
+    {
+      "id": 185,
+      "alt": "Photo 185",
+      "src": "/assets/new_gallery/wedding/54Photo.jpeg"
+    },
+    {
+      "id": 186,
+      "alt": "Photo 186",
+      "src": "/assets/new_gallery/wedding/55Photo.jpeg"
+    },
+    {
+      "id": 187,
+      "alt": "Photo 187",
+      "src": "/assets/new_gallery/wedding/56Photo.jpeg"
+    },
+    {
+      "id": 188,
+      "alt": "Photo 188",
+      "src": "/assets/new_gallery/wedding/57Photo.jpeg"
+    },
+    {
+      "id": 189,
+      "alt": "Photo 189",
+      "src": "/assets/new_gallery/wedding/58Photo.jpeg"
+    },
+    {
+      "id": 190,
+      "alt": "Photo 190",
+      "src": "/assets/new_gallery/wedding/59Photo.jpeg"
+    },
+    {
+      "id": 191,
+      "alt": "Photo 191",
+      "src": "/assets/new_gallery/wedding/5Photo.jpeg"
+    },
+    {
+      "id": 192,
+      "alt": "Photo 192",
+      "src": "/assets/new_gallery/wedding/60Photo.jpeg"
+    },
+    {
+      "id": 193,
+      "alt": "Photo 193",
+      "src": "/assets/new_gallery/wedding/61Photo.jpeg"
+    },
+    {
+      "id": 194,
+      "alt": "Photo 194",
+      "src": "/assets/new_gallery/wedding/62Photo.jpeg"
+    },
+    {
+      "id": 195,
+      "alt": "Photo 195",
+      "src": "/assets/new_gallery/wedding/63Photo.jpeg"
+    },
+    {
+      "id": 196,
+      "alt": "Photo 196",
+      "src": "/assets/new_gallery/wedding/64Photo.jpeg"
+    },
+    {
+      "id": 197,
+      "alt": "Photo 197",
+      "src": "/assets/new_gallery/wedding/65Photo.jpeg"
+    },
+    {
+      "id": 198,
+      "alt": "Photo 198",
+      "src": "/assets/new_gallery/wedding/66Photo.jpeg"
+    },
+    {
+      "id": 199,
+      "alt": "Photo 199",
+      "src": "/assets/new_gallery/wedding/67Photo.jpeg"
+    },
+    {
+      "id": 200,
+      "alt": "Photo 200",
+      "src": "/assets/new_gallery/wedding/68Photo.jpeg"
+    },
+    {
+      "id": 201,
+      "alt": "Photo 201",
+      "src": "/assets/new_gallery/wedding/69Photo.jpeg"
+    },
+    {
+      "id": 202,
+      "alt": "Photo 202",
+      "src": "/assets/new_gallery/wedding/6Photo.jpeg"
+    },
+    {
+      "id": 203,
+      "alt": "Photo 203",
+      "src": "/assets/new_gallery/wedding/70Photo.jpeg"
+    },
+    {
+      "id": 204,
+      "alt": "Photo 204",
+      "src": "/assets/new_gallery/wedding/71Photo.jpeg"
+    },
+    {
+      "id": 205,
+      "alt": "Photo 205",
+      "src": "/assets/new_gallery/wedding/72Photo.jpeg"
+    },
+    {
+      "id": 206,
+      "alt": "Photo 206",
+      "src": "/assets/new_gallery/wedding/73Photo.jpeg"
+    },
+    {
+      "id": 207,
+      "alt": "Photo 207",
+      "src": "/assets/new_gallery/wedding/74Photo.jpeg"
+    },
+    {
+      "id": 208,
+      "alt": "Photo 208",
+      "src": "/assets/new_gallery/wedding/75Photo.jpeg"
+    },
+    {
+      "id": 209,
+      "alt": "Photo 209",
+      "src": "/assets/new_gallery/wedding/76Photo.jpeg"
+    },
+    {
+      "id": 210,
+      "alt": "Photo 210",
+      "src": "/assets/new_gallery/wedding/77Photo.jpeg"
+    },
+    {
+      "id": 211,
+      "alt": "Photo 211",
+      "src": "/assets/new_gallery/wedding/78Photo.jpeg"
+    },
+    {
+      "id": 212,
+      "alt": "Photo 212",
+      "src": "/assets/new_gallery/wedding/79Photo.jpeg"
+    },
+    {
+      "id": 213,
+      "alt": "Photo 213",
+      "src": "/assets/new_gallery/wedding/7Photo.jpeg"
+    },
+    {
+      "id": 214,
+      "alt": "Photo 214",
+      "src": "/assets/new_gallery/wedding/80Photo.jpeg"
+    },
+    {
+      "id": 215,
+      "alt": "Photo 215",
+      "src": "/assets/new_gallery/wedding/81Photo.jpeg"
+    },
+    {
+      "id": 216,
+      "alt": "Photo 216",
+      "src": "/assets/new_gallery/wedding/82Photo.jpeg"
+    },
+    {
+      "id": 217,
+      "alt": "Photo 217",
+      "src": "/assets/new_gallery/wedding/83Photo.jpeg"
+    },
+    {
+      "id": 218,
+      "alt": "Photo 218",
+      "src": "/assets/new_gallery/wedding/84Photo.jpeg"
+    },
+    {
+      "id": 219,
+      "alt": "Photo 219",
+      "src": "/assets/new_gallery/wedding/85Photo.jpeg"
+    },
+    {
+      "id": 220,
+      "alt": "Photo 220",
+      "src": "/assets/new_gallery/wedding/86Photo.jpeg"
+    },
+    {
+      "id": 221,
+      "alt": "Photo 221",
+      "src": "/assets/new_gallery/wedding/87Photo.jpeg"
+    },
+    {
+      "id": 222,
+      "alt": "Photo 222",
+      "src": "/assets/new_gallery/wedding/88Photo.jpeg"
+    },
+    {
+      "id": 223,
+      "alt": "Photo 223",
+      "src": "/assets/new_gallery/wedding/89Photo.jpeg"
+    },
+    {
+      "id": 224,
+      "alt": "Photo 224",
+      "src": "/assets/new_gallery/wedding/8Photo.jpeg"
+    },
+    {
+      "id": 225,
+      "alt": "Photo 225",
+      "src": "/assets/new_gallery/wedding/90Photo.jpeg"
+    },
+    {
+      "id": 226,
+      "alt": "Photo 226",
+      "src": "/assets/new_gallery/wedding/91Photo.jpeg"
+    },
+    {
+      "id": 227,
+      "alt": "Photo 227",
+      "src": "/assets/new_gallery/wedding/92Photo.jpeg"
+    },
+    {
+      "id": 228,
+      "alt": "Photo 228",
+      "src": "/assets/new_gallery/wedding/93Photo.jpeg"
+    },
+    {
+      "id": 229,
+      "alt": "Photo 229",
+      "src": "/assets/new_gallery/wedding/94Photo.jpeg"
+    },
+    {
+      "id": 230,
+      "alt": "Photo 230",
+      "src": "/assets/new_gallery/wedding/95Photo.jpeg"
+    },
+    {
+      "id": 231,
+      "alt": "Photo 231",
+      "src": "/assets/new_gallery/wedding/96Photo.jpeg"
+    },
+    {
+      "id": 232,
+      "alt": "Photo 232",
+      "src": "/assets/new_gallery/wedding/97Photo.jpeg"
+    },
+    {
+      "id": 233,
+      "alt": "Photo 233",
+      "src": "/assets/new_gallery/wedding/98Photo.jpeg"
+    },
+    {
+      "id": 234,
+      "alt": "Photo 234",
+      "src": "/assets/new_gallery/wedding/99Photo.jpeg"
+    },
+    {
+      "id": 235,
+      "alt": "Photo 235",
+      "src": "/assets/new_gallery/wedding/9Photo.jpeg"
     }
   ]
 }

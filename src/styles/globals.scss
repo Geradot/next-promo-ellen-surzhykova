@@ -127,12 +127,12 @@ a {
   text-decoration: none;
 }
 
-footer a,
-.popover-body a {
+footer a {
   @include link-decor();
 }
 
 .popover-body a {
+  @include link-decor();
   vertical-align: middle;
 }
 

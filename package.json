@@ -17,6 +17,7 @@
   "devDependencies": {
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
-    "sass": "^1.61.0"
+    "sass": "^1.61.0",
+    "typescript": "^5.0.4"
   }
 }

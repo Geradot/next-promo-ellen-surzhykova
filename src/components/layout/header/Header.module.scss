@@ -36,7 +36,7 @@
 
   h1,
   h2 {
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 1px 1px 10px black;
   }
 }
 
@@ -62,13 +62,21 @@
     align-items: flex-start;
     justify-content: center;
 
-    span:first-of-type {
-      font-size: calc(2.2vw * 5.1);
+    .ellen {
+      font-size: calc(1.2vw * 13.1);
+
+      @media (max-width: 768px) {
+        font-size: calc(1.2vw * 18.1);
+      }
     }
 
-    span:last-of-type {
-      font-size: calc(2.2vw * 4.1);
+    .seamstress {
+      font-size: calc(1.2vw * 10.1);
       padding-left: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: calc(1.2vw * 15.1);
+      }
     }
   }
 }

@@ -10,6 +10,7 @@ export default function Slider({ photos, closeSlider, currentImage }) {
 
   useEffect(() => {
     document.addEventListener("keydown", closingSliderViaKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -62,17 +63,14 @@ export default function Slider({ photos, closeSlider, currentImage }) {
       />
       <div id="slides" className={styles.slides}>
         {isImageLoaded ? (
-          <>
-            {console.log("Loader is disabled")}
-            <Image
-              src={process.env.basePATH + activeSlide.src}
-              placeholder="blur"
-              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
-              alt={activeSlide.alt}
-              fill
-              quality={100}
-            />
-          </>
+          <Image
+            src={process.env.basePATH + activeSlide.src}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
+            alt={activeSlide.alt}
+            fill
+            quality={100}
+          />
         ) : (
           <Loader />
         )}

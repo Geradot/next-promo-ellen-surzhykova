@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from "./Footer.module.scss";
 
-export default function Footer() {
+export default function Footer({ fontFamily }) {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} ${fontFamily.className}`}>
       <section className={styles.contacts}>
         <div className={styles.email} data-aos="fade-down">
           <Image
@@ -21,7 +21,14 @@ export default function Footer() {
             width={30}
             height={30}
           />
-          <a href="tel:+17124496163">+1&nbsp;(712)&nbsp;449-6163</a>
+          <a
+            style={{
+              paddingTop: "4px",
+            }}
+            href="tel:+17124496163"
+          >
+            +1&nbsp;(712)&nbsp;449-6163
+          </a>
         </div>
       </section>
       <p data-aos="fade-up">

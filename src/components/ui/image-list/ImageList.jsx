@@ -11,6 +11,7 @@ function ImageList({ chooseCurrentImage, photos, type }) {
             src={process.env.basePATH + photo.src}
             alt={photo.alt}
             className={styles[`gallery-image`]}
+            quality={85}
             width={250}
             height={420}
             onClick={() => chooseCurrentImage(photo)}
