@@ -1,9 +1,7 @@
 import styles from "./Header.module.scss";
-import clsx from "clsx";
 import Image from "next/image";
 import img_mannequin from "@/../public/assets/header/mannequin.png";
 import img_ukraine from "@/../public/assets/header/ukraine.png";
-import img_bg from "@/../public/assets/header/header-bg.png";
 
 
 export default function Header({fontFamily}) {

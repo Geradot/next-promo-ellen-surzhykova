@@ -5,7 +5,6 @@ const nextConfig = {
     basePATH: process.env.basePATH,
     DRESSES_TYPE: process.env.DRESSES_TYPE,
   },
-  basePath: "/next-ellen-surzhykova",
 }
 
 module.exports = nextConfig
