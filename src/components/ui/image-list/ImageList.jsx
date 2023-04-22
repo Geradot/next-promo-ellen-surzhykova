@@ -8,7 +8,7 @@ function ImageList({ chooseCurrentImage, photos, type }) {
         {photos.map((photo) => (
           <Image
             key={photo.id}
-            src={process.env.basePATH + photo.src}
+            src={photo.src}
             alt={photo.alt}
             className={styles[`gallery-image`]}
             quality={85}

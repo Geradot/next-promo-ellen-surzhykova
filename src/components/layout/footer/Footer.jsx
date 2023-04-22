@@ -7,7 +7,7 @@ export default function Footer({ fontFamily }) {
       <section className={styles.contacts}>
         <div className={styles.email} data-aos="fade-down">
           <Image
-            src={process.env.basePATH + "/assets/icons/email.svg"}
+            src="/assets/icons/email.svg"
             alt="Email icon"
             width={30}
             height={30}
@@ -16,7 +16,7 @@ export default function Footer({ fontFamily }) {
         </div>
         <div className={styles.phone} data-aos="fade-down">
           <Image
-            src={process.env.basePATH + "/assets/icons/phone.png"}
+            src="/assets/icons/phone.png"
             alt="Phone icon"
             width={30}
             height={30}

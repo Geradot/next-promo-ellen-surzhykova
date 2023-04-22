@@ -57,11 +57,11 @@ export default function NavDresses({ onData }) {
         data-bs-content={`
             <div class="contacts">
                 <div class='btn btn-light email'>
-                  <img src='/next-ellen-surzhykova/assets/icons/email.svg' alt='Email icon' />
+                  <img src='/assets/icons/email.svg' alt='Email icon' />
                   <a href='mailto:Luna1lika@gmail.com'>Luna1lika@gmail.com</a>
                 </div>
                 <div class='btn btn-light phone'>
-                  <img src='/next-ellen-surzhykova/assets/icons/phone.png' alt='Phone icon' />
+                  <img src='/assets/icons/phone.png' alt='Phone icon' />
                   <a href='tel:+17124496163'>+1&nbsp;(712)&nbsp;449-6163</a>
                 </div>
             </div>
