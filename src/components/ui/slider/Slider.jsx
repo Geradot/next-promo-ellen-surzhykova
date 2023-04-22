@@ -64,7 +64,7 @@ export default function Slider({ photos, closeSlider, currentImage }) {
       <div id="slides" className={styles.slides}>
         {isImageLoaded ? (
           <Image
-            src={process.env.basePATH + activeSlide.src}
+            src={activeSlide.src}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8VA8AAkkBY8DEq9wAAAAASUVORK5CYII="
             alt={activeSlide.alt}
