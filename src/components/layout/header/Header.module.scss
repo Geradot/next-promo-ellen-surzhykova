@@ -1,6 +1,9 @@
 .header {
   background-image: url("/assets/header/header-bg.png");
   background-attachment: fixed;
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
