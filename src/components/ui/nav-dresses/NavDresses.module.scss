@@ -11,12 +11,13 @@
   top: 0;
   z-index: 1000;
 
-  > div {
+  .dresses-types > div {
     filter: opacity(0.8);
     cursor: pointer;
     transition: color 0.5s ease;
     display: flex;
     align-items: center;
+    text-align: center;
 
     &.active {
       color: gold;
@@ -35,28 +36,27 @@
     @media (max-width: 576px) {
       text-align: center;
     }
-  }
 
-  :not(.active)::after {
-    content: "";
-    pointer-events: none;
-    bottom: -2px;
-    left: 50%;
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background-color: #fff;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 400ms;
-    transition-property: width, left;
-  }
+    :not(.active)::after {
+      content: "";
+      pointer-events: none;
+      bottom: -2px;
+      left: 50%;
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      background-color: #fff;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 400ms;
+      transition-property: width, left;
+    }
 
-  @media (max-width: 576px) {
-    font-size: 16px;
-  }
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
 
-  @media (max-width: 400px) {
-    font-size: 14px;
+    @media (max-width: 400px) {
+      font-size: 14px;
+    }
   }
-
 }

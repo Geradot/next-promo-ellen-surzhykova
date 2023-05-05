@@ -10,6 +10,9 @@ export default function Slider({ photos, closeSlider, currentImage }) {
 
   useEffect(() => {
     document.addEventListener("keydown", closingSliderViaKey);
+    return () => {
+      document.removeEventListener("keydown", closingSliderViaKey);
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -32,7 +35,9 @@ export default function Slider({ photos, closeSlider, currentImage }) {
   }
 
   function closingSliderViaKey(e) {
-    if (e.code === "Escape") closeSlider();
+    if (e.code === "Escape") {
+      closeSlider();
+    }
   }
 
   // Prev or Next image

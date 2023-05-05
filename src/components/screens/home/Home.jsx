@@ -1,15 +1,20 @@
 import Layout from "@/components/layout/Layout";
 import ImageList from "@/components/ui/image-list/ImageList";
-import photos from "@/photos.json";
+import photosJson from "@/photos.json";
 import Slider from "@/components/ui/slider/Slider";
 import NavDresses from "@/components/ui/nav-dresses/NavDresses";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export default function Home() {
-  const [type, setType] = useState("wedding");
+  const [type, setType] = useState(null);
+  let photos = useMemo(() => photosJson[type], [type])
 
   const [isSlider, setIsSlider] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
+
+  useEffect(() => {
+    setType("wedding");
+  }, []);
 
   function handleData(data) {
     setType(data);
@@ -34,14 +39,16 @@ export default function Home() {
         <Slider
           closeSlider={closeSlider}
           currentImage={currentImage}
-          photos={photos[`${type}`]}
+          photos={photos}
         />
       )}
-      <ImageList
-        chooseCurrentImage={chooseCurrentImage}
-        photos={photos[`${type}`]}
-        type={type}
-      />
+      {photos && (
+        <ImageList
+          chooseCurrentImage={chooseCurrentImage}
+          photos={photos}
+          type={type}
+        />
+      )}
     </Layout>
   );
 }
