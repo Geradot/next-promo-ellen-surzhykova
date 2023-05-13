@@ -50,7 +50,7 @@ export default function MyPopover() {
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <div className="relative grid gap-8 bg-white p-3">
                     <div className={styles.contacts}>
-                      <div className={clsx("btn", "btn-light", styles.email)}>
+                      <div>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
