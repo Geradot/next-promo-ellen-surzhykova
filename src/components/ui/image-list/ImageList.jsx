@@ -1,6 +1,4 @@
 import Image from "next/image";
-import styles from "./ImageList.module.scss";
-import clsx from "clsx";
 
 function ImageList({ chooseCurrentImage, photos, type }) {
   return (

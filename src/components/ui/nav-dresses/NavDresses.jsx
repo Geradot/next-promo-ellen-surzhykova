@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./NavDresses.module.scss";
 import clsx from "clsx";
 import MyPopover from "../my-popover/MyPopover";
