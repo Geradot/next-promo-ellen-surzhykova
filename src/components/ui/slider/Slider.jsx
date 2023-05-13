@@ -62,10 +62,26 @@ export default function Slider({ photos, closeSlider, currentImage }) {
   }
   return (
     <div className={styles.slider} onClick={closingSlider} id="slider">
-      <button
+      {/* <button
         id="close-slider"
         className={clsx(styles[`close-slider`], "btn-close")}
-      />
+      /> */}
+      <svg
+        id="close-slider"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="w-9 h-9 fixed top-3 right-3 text-white cursor-pointer"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
+
       <div id="slides" className={styles.slides}>
         {isImageLoaded ? (
           <Image

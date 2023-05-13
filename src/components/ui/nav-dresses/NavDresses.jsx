@@ -38,7 +38,7 @@ export default function NavDresses({ onData }) {
     // }));
   }
   return (
-    <nav className={clsx(styles[`tab-menu`], "mb-3")}>
+    <nav className={clsx(styles[`tab-menu`], "mb-2")}>
       <MyPopover />
       <div className={clsx(styles[`dresses-types`], "flex gap-3 items-center")}>
         {keys.map((key) => (

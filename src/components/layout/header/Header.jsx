@@ -6,23 +6,22 @@ import img_ukraine from "@/../public/assets/header/ukraine.png";
 
 export default function Header({fontFamily}) {
   return (
-    <header className={`${styles.header} gap-3`}>
-      <div className={`${styles.author} gap-3`}>
+    <header className={`${styles.header} justify-around py-4 gap-2`}>
+      <div className="h-3/4 sm:h-auto px-4 flex flex-col z-10 md:flex-row justify-evenly md:justify-start md:items-center gap-4 lg:gap-2">
         <Image
           src={img_mannequin}
           alt="Image of mannequin"
-          className={styles.mannequin}
-          data-aos="fade-right"
+          className="mx-auto w-[200px] md:w-[300px] h-auto lg:h-[480px] brightness-200"
         />
-        <div className={styles.author__text}>
-          <h1 className={`${styles.heading} ${fontFamily.allura.className}`} data-aos="fade-down">
-            <span className={styles.ellen}>Ellen</span>
-            <span className={styles.seamstress}>seamstress</span>
+        <div className="h-auto justify-center">
+          <h1 className={`flex flex-col items-start justify-center ${fontFamily.allura.className}`}>
+            <span className="text-7xl sm:text-8xl md:text-9xl lg:text-[160px]">Ellen</span>
+            <span className="text-6xl pl-6 sm:text-7xl md:text-8xl lg:text-[100px]">seamstress</span>
           </h1>
         </div>
       </div>
-      <h2 className={`${styles.subheading} ${fontFamily.comfortaa.className}`} data-aos="fade-up">
-        <p>
+      <h2 className={`h-1/4 sm:h-auto flex ${styles.subheading} ${fontFamily.comfortaa.className}`}>
+        <p className="text-sm md:text-lg my-auto">
           A Professional Dress Maker from Ukraine{" "}
           <Image src={img_ukraine} alt="blue-yellow heart" />
         </p>
