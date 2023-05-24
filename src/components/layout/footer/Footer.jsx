@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./Footer.module.scss";
 
 export default function Footer({ fontFamily }) {
@@ -43,9 +42,9 @@ export default function Footer({ fontFamily }) {
       <p data-aos="fade-up">
         Created by{" "}
         <a href="https://geradot.vercel.app/" target="_blank" className="underline underline-offset-4 hover:text-red-800 transition-colors duration-300">
-          Anton&nbsp;Ryzhenko
+         Geradot 
         </a>{" "}
-        © 2023
+        © {new Date().getFullYear()}
       </p>
     </footer>
   );
