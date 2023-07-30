@@ -22,7 +22,7 @@ export default function Header({fontFamily}) {
       </div>
       <h2 className={`h-1/4 sm:h-auto flex ${styles.subheading} ${fontFamily.comfortaa.className}`}>
         <p className="text-xl md:text-lg my-auto">
-          A Professional Dress Maker from Ukraine{" "}
+          A Professional Dress&nbsp;Maker from Ukraine{" "}
           <Image src={img_ukraine} alt="blue-yellow heart" />
         </p>
       </h2>
