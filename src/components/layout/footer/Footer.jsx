@@ -1,6 +1,10 @@
 import styles from "./Footer.module.scss";
 
 export default function Footer({ fontFamily }) {
+  const startYear = 2023;
+
+  let currentYear = new Date().getFullYear();
+
   return (
     <footer className={`${styles.footer} ${fontFamily.className}`}>
       <section className={styles.contacts}>
@@ -44,7 +48,7 @@ export default function Footer({ fontFamily }) {
         <a href="https://geradot.vercel.app/" target="_blank" className="underline underline-offset-4 hover:text-red-800 transition-colors duration-300">
          Geradot 
         </a>{" "}
-        © {new Date().getFullYear()}
+        © {currentYear === startYear ? currentYear : `${startYear}—${currentYear}`}
       </p>
     </footer>
   );
